@@ -1,6 +1,6 @@
 const wrapAsync = require("../utils/wrapAsync.js");
 const Listing = require("../models/listing.js");
-const review = require("../models/reviews.js");
+const review = require("../models/reviews (1).js");
 
 module.exports.createReview = wrapAsync(async (req, res) => {
     let listingg = await Listing.findById(req.params.id);
