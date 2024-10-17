@@ -18,9 +18,9 @@ const passport = require("passport");
 const LocalStrategy = require("passport-local");
 const User = require("./models/user.js");
 
-const listingRoute = require("./routes/listing.js");
+const listingRoute = require("./routes/listing (1).js");
 const reviewRoute = require("./routes/review.js");
-const userRoute = require("./routes/user.js");
+const userRoute = require("./routes/user (1).js");
 
 // const MONGO_URL = "mongodb://localhost:27017/airbnb";
 const dbUrl = "mongodb+srv://srdeepak31:lVTeOyRuzo05TKBQ@cluster0.1kkayid.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
